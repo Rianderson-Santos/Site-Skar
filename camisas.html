@@ -5,16 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Skar</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <script src="https://kit.fontawesome.com/788fd413ff.js" crossorigin="anonymous"></script>
     <link rel="icon" href="img/scaner.inverso.png"/>
+    
+    <link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" href="css/camisas.css" />
 </head>
 <body>
-
-    <div id="main" >
-        <div id="header">
+    <script src="javascript/script.js"></script>
+            
+    <header>
+        <div class="logo">
+          <a href="index.html"> <img src="img/LOGO site.png"> </a>
+        </div>
+        <input type="checkbox" id="nav_check" hidden>
+        <nav>
             <div class="logo">
+<<<<<<< Updated upstream
               <a href="index.html">  <img src="img/LOGO site.png"  /></a>
             </div> <!--fechando do header -->
             <hr>
@@ -30,8 +38,53 @@
                         <i class="fa fa-search" > </i> 
                       </button>
                 </form>
+=======
+               <a href="index.html"> <img src="img/LOGO site.png"> </a>
+>>>>>>> Stashed changes
             </div>
+            <ul style="list-style: none;">
+                <li>
+                    <a href="index.html" class="active">Inicio</a>
+                </li>
+                <li>
+                    <a href="camisas.html" >Camisas</a>
+                </li>
+                <li>
+                    <a href="shorts.html" >Shorts</a>
+                </li>
+                <li>
+                    <a href="calcas.html" >Calças</a>
+                </li>
+                <li>
+                    <a href="calcadoseassorios.html" >Calçados e Assesórios</a>
+                </li>
+                <li>
+                    <a href="registrar.html" target="_blank"> <i class='bx bx-user bx-tada bx-flip-horizontal'></i> Registrar</a>
+                    
+                </li>
+            </ul>
+        </nav>
+        <label for="nav_check" class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </label>
+    </header>
+
+    <section class="products">
+      
+      <div class="all-products">
+        <div class="product">
+          <img src="img/casacoskar.png">
+          <div class="product-info">
+            <h4 class="product-title">Camisa Preta
+            </h4>
+            <p class="product-price">$129</p>
+            <a class="product-btn" href="#">Comprar</a>
+  
+          </div>
         </div>
+<<<<<<< Updated upstream
     </div>
     <hr>
     <div id="container-camisas">
@@ -40,10 +93,44 @@
             <img src="img/skarpretanormal.png " style="border: solid black 1px;" >
             <img src="img/skarazulnormal.png" style="border: solid black 1px" >
             <img src="img/skarsocialpreta.png" style="border: solid black 1px;" >
+=======
+        <div class="product">
+          <img src="img/skarsocialpreta.png">
+          <div class="product-info">
+            <h4 class="product-title">Casaco Preto
+            </h4>
+            <p class="product-price">$249</p>
+            <a class="product-btn" href="#">Comprar</a>
+  
+          </div>
+>>>>>>> Stashed changes
         </div>
-    </div>
-    <hr>
-    <br>
+        <div class="product">
+          <img src="img/skarazulnormal.png">
+          <div class="product-info">
+            <h4 class="product-title">Camisa Azul
+            </h4>
+            <p class="product-price">$79</p>
+            <a class="product-btn" href="#">Comprar</a>
+  
+          </div>
+        </div>
+        <div class="product">
+          <img src="img/skarpretanormal.png">
+          <div class="product-info">
+            <h4 class="product-title">Camisa preta
+              </h4>
+            <p class="product-price">$79</p>
+            <a class="product-btn" href="#">Comprar</a>
+  
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
     <div id="footer">
         <div class="informações">
             <h4> <p> Informações especiais <br> </p> </h4>
@@ -69,35 +156,24 @@
             
 
         </div>
+        
 
         <div class="sociais-links">
 
             <div class="sociais-links">
                   
-                <a href="https://www.instagram.com/rian._.s/"><i class="fa-brands fa-instagram"></i> 
+                <a href="https://www.instagram.com/rian._.s/"><i class='bx bxl-instagram-alt bx-tada' style='color:#080808' ></i>
                 
                 
-                <a href="https://api.whatsapp.com/send?phone=5583986536209"><i class="fa-brands fa-whatsapp"></i> </a>
+                <a href="https://api.whatsapp.com/send?phone=5583986536209"><i class='bx bxl-whatsapp bx-tada' style='color:#080808' ></i> </a>
                 
                 
-                <a href="https://github.com/"> <i class="fa-brands fa-github"></i></a> 
+                <a href="https://github.com/"> <i class='bx bxl-github bx-tada' style='color:#080808'  ></i></a> 
                 
                 
             </div>
         </div>
-        <div id="rastreio">
-            <form action="/search" method="GET">
-                <input type="text" name="q" placeholder="Rastreio">
-                <button type="submit" class="icon-button">
-                    <i class="fa fa-search" > </i> 
-                </button>
-            </form>
-            
 
-            </div>
-
-        
-    </div>
 
         
 </body>
