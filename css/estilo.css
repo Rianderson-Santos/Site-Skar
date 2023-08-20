@@ -108,6 +108,17 @@ nav ul li a:active{
   }
   .hamburger{
     display: block;
+    left: 200px;
+  }
+}
+
+@media (max-width:800px){
+  .all-products{
+      width: 370px;
+  }
+  #container {
+    width: 370px;
+    text-align: center;
   }
 }
   a{
